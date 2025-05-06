@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx", // Enables JSX support for React
+    "allowJs": true, // Allows JavaScript files in the project
+    "module": "esnext",
+    "target": "es5",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
